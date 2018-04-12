@@ -77,7 +77,6 @@ GEM
       compass (~> 1.0.0)
       sass-rails (< 5.1)
       sprockets (< 2.13)
-    concurrent-ruby (1.0.5)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     daemons (1.2.4)
@@ -466,17 +465,18 @@ DEPENDENCIES
   compass-rails (~> 2.0.4)
   dotenv-rails
   draper
-  eventmachine (~> 1.2.0.1)
+  eventmachine (~> 1.2.5)
   faker
   font-awesome-sass
   gemoji
   ikazuchi
   jquery-rails
   kaminari-mongoid
+  libv8 (= 3.16.14.19)
   mongoid (~> 5.0.0)
   omniauth
   omniauth-slack
-  parser (~> 2.2.2.6)
+  parser (~> 2.4)
   puma
   rails (~> 4.2)
   rails-i18n (~> 4.0.0)
@@ -497,4 +497,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
