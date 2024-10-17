@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
-ruby '2.2.4'
+ruby '2.4.1'
 
-gem 'rails', '4.2.0'
+gem 'rails', '~> 4.2'
 gem 'rails-i18n', '~> 4.0.0'
 gem 'puma'
-gem 'eventmachine', '~> 1.2.0.1'
+gem 'eventmachine', '~> 1.2.5'
 
 gem 'mongoid', '~> 5.0.0'
+gem 'kaminari-mongoid'
 gem 'bson_ext'
 gem 'redis-rails'
 
@@ -19,8 +20,8 @@ gem 'font-awesome-sass'
 gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer', platforms: :ruby
 
-gem 'libv8', '3.16.14.11'
-gem 'parser', '~> 2.2.2.6'
+gem 'libv8', '3.16.14.19'
+gem 'parser', '~> 2.4'
 
 gem 'jquery-rails'
 gem 'gemoji'
